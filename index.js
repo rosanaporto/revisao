@@ -47,3 +47,4 @@ server.put('/revisao/:id',(request, response) => {
  return response.send();
 });
 
+server.listen(process.env.PORT||3000);
